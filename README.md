@@ -54,7 +54,7 @@ Follow the instructions inside each one of the following repositories:
 
    ```bash
    docker run 	-v $CONFIG_PATH:/config \
-   			-v $PROCESSING_PATH:/processing \
+   			   -v $PROCESSING_PATH:/processing \
                -v $DATA_PATH:/data \
                -v $TSV_PATH:/tsv \
                -v $FEATURES_PATH:/features \
@@ -66,7 +66,7 @@ Follow the instructions inside each one of the following repositories:
 
    ```bash
    docker run 	-v $CONFIG_PATH:/config \
-   			-v $PROCESSING_PATH:/processing \
+   			   -v $PROCESSING_PATH:/processing \
                -v $DATA_PATH:/data \
                -v $TSV_PATH:/tsv \
                -v $FEATURES_PATH:/features \
@@ -92,7 +92,7 @@ Follow the instructions inside each one of the following repositories:
 
    ```bash
    docker run 	-v $CONFIG_PATH:/config \
-   			-v $PROCESSING_PATH:/processing \
+   			   -v $PROCESSING_PATH:/processing \
                -v $DATA_PATH:/data \
                -v $TSV_PATH:/tsv \
                -v $FEATURES_PATH:/features \
@@ -124,7 +124,7 @@ Follow the instructions inside each one of the following repositories:
 
    ```bash
    docker run 	-v $CONFIG_PATH:/config \
-   			-v $PROCESSING_PATH:/processing \
+   			   -v $PROCESSING_PATH:/processing \
                -v $DATA_PATH:/data \
                -v $TSV_PATH:/tsv \
                -v $FEATURES_PATH:/features \
@@ -136,14 +136,14 @@ Follow the instructions inside each one of the following repositories:
 
    ```bash
    docker run 	-v $PROCESSING_PATH/ligands:/pdb \
-   			-v $DATA_PATH/chembl:/index \
+   			   -v $DATA_PATH/chembl:/index \
                --name psbap-openbabel --rm \
    			psbap-openbabel search-and-split
    
    # After finish, run the next command:
    
    docker run 	-v $PROCESSING_PATH/ligands:/pdb \
-   			-v $DATA_PATH/chembl:/index \
+   			   -v $DATA_PATH/chembl:/index \
                --name psbap-openbabel --rm \
    			psbap-openbabel minimize
    ```
@@ -152,7 +152,7 @@ Follow the instructions inside each one of the following repositories:
 
    ```bash
    docker run 	-v $CONFIG_PATH:/config \
-   			-v $PROCESSING_PATH:/processing \
+   			   -v $PROCESSING_PATH:/processing \
                -v $DATA_PATH:/data \
                -v $TSV_PATH:/tsv \
                -v $FEATURES_PATH:/features \
@@ -164,7 +164,7 @@ Follow the instructions inside each one of the following repositories:
 
    ```bash
    docker run 	-v $CONFIG_PATH:/config \
-   			-v $PROCESSING_PATH:/processing \
+   			   -v $PROCESSING_PATH:/processing \
                -v $DATA_PATH:/data \
                -v $TSV_PATH:/tsv \
                -v $FEATURES_PATH:/features \
@@ -190,13 +190,13 @@ Follow the instructions inside each one of the following repositories:
 11. Extract Vina results and generate mutation, pocket and ligand features:
 
     ```bash
-    docker run 	-v $CONFIG_PATH:/config \
-    			-v $PROCESSING_PATH:/processing \
-                -v $DATA_PATH:/data \
-                -v $TSV_PATH:/tsv \
-                -v $FEATURES_PATH:/features \
-                --name psbap-core --rm \
-                psbap-core -op generate-features
+    docker run    -v $CONFIG_PATH:/config \
+    			      -v $PROCESSING_PATH:/processing \
+                  -v $DATA_PATH:/data \
+                  -v $TSV_PATH:/tsv \
+                  -v $FEATURES_PATH:/features \
+                  --name psbap-core --rm \
+                  psbap-core -op generate-features
     ```
 
     
