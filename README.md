@@ -12,11 +12,14 @@ Clone this repository to the location of your preference, then follow the next s
 
 Follow the instructions inside each one of the following repositories:
 
-1. PSBAP Core:  https://github.com/ammar257ammar/psbap-core
-2. PSBAP FoldX: https://github.com/ammar257ammar/psbap-foldx
-3. PSBAP Gromacs: https://github.com/ammar257ammar/psbap-gromacs
-4. PSBAP OpenBabel: https://github.com/ammar257ammar/psbap-openbabel
-5. PSBAP Vina: https://github.com/ammar257ammar/psbap-vina
+| [PSBAP Core](https://github.com/ammar257ammar/psbap-core)    | [![Codacy Badge](https://app.codacy.com/project/badge/Grade/f88127b901bd40b48b9a3bab4b309703)](https://www.codacy.com/gh/ammar257ammar/psnpbind-core/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ammar257ammar/psnpbind-core&amp;utm_campaign=Badge_Grade) ![GitHub top language](https://img.shields.io/github/languages/top/ammar257ammar/psnpbind-core) ![Lines of code](https://img.shields.io/tokei/lines/github/ammar257ammar/psnpbind-core) ![GitHub](https://img.shields.io/github/license/ammar257ammar/psnpbind-core) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/ammar257ammar/psnpbind-core) ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/aammar/psnpbind-core) [![DOI](https://zenodo.org/badge/227237183.svg)](https://zenodo.org/badge/latestdoi/227237183) [![Dockerhub](https://img.shields.io/badge/dockerhub-aammar%2Fpsnpbind--core-green)](https://hub.docker.com/r/aammar/psnpbind-core) [![Documentation](https://img.shields.io/badge/Documentation-Javadoc-blue)](https://ammar257ammar.github.io/psnpbind-core/) |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| [PSBAP FoldX](https://github.com/ammar257ammar/psbap-foldx)  | ![GitHub top language](https://img.shields.io/github/languages/top/ammar257ammar/psnpbind-foldx) ![GitHub](https://img.shields.io/github/license/ammar257ammar/psnpbind-foldx) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/ammar257ammar/psnpbind-foldx) [![Dockerhub](https://img.shields.io/badge/Dockerhub-aammar%2Fpsnpbind--foldx-green)](https://hub.docker.com/r/aammar/psnpbind-foldx) ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/aammar/psnpbind-foldx) [![DOI](https://zenodo.org/badge/224151495.svg)](https://zenodo.org/badge/latestdoi/224151495) |
+| [PSBAP Gromacs](https://github.com/ammar257ammar/psbap-gromacs) | ![GitHub top language](https://img.shields.io/github/languages/top/ammar257ammar/psnpbind-gromacs) ![GitHub](https://img.shields.io/github/license/ammar257ammar/psnpbind-gromacs) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/ammar257ammar/psnpbind-gromacs) [![Dockerhub](https://img.shields.io/badge/Dockerhub-aammar%2Fpsnpbind--gromacs-green)](https://hub.docker.com/r/aammar/psnpbind-gromacs) ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/aammar/psnpbind-gromacs) [![DOI](https://zenodo.org/badge/266883870.svg)](https://zenodo.org/badge/latestdoi/266883870) |
+| [PSBAP OpenBabel](https://github.com/ammar257ammar/psbap-openbabel) | ![GitHub top language](https://img.shields.io/github/languages/top/ammar257ammar/psnpbind-openbabel) ![GitHub](https://img.shields.io/github/license/ammar257ammar/psnpbind-openbabel) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/ammar257ammar/psnpbind-openbabel) [![Dockerhub](https://img.shields.io/badge/Dockerhub-aammar%2Fpsnpbind--openbabel-green)](https://hub.docker.com/r/aammar/psnpbind-openbabel) ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/aammar/psnpbind-openbabel) [![DOI](https://zenodo.org/badge/266906942.svg)](https://zenodo.org/badge/latestdoi/266906942) |
+| [PSBAP Vina](https://github.com/ammar257ammar/psbap-vina)    | ![GitHub top language](https://img.shields.io/github/languages/top/ammar257ammar/psnpbind-vina) ![GitHub](https://img.shields.io/github/license/ammar257ammar/psnpbind-vina) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/ammar257ammar/psnpbind-vina) [![Dockerhub](https://img.shields.io/badge/Dockerhub-aammar%2Fpsnpbind--vina-green)](https://hub.docker.com/r/aammar/psnpbind-vina) ![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/aammar/psnpbind-vina) [![DOI](https://zenodo.org/badge/241072278.svg)](https://zenodo.org/badge/latestdoi/241072278) |
+
+
 
 ### Second, download the required datasets to the corresponding locations
 
@@ -54,7 +57,7 @@ Follow the instructions inside each one of the following repositories:
 
    ```bash
    docker run 	-v $CONFIG_PATH:/config \
-   			   -v $PROCESSING_PATH:/processing \
+   			-v $PROCESSING_PATH:/processing \
                -v $DATA_PATH:/data \
                -v $TSV_PATH:/tsv \
                -v $FEATURES_PATH:/features \
@@ -66,7 +69,7 @@ Follow the instructions inside each one of the following repositories:
 
    ```bash
    docker run 	-v $CONFIG_PATH:/config \
-   			   -v $PROCESSING_PATH:/processing \
+   			-v $PROCESSING_PATH:/processing \
                -v $DATA_PATH:/data \
                -v $TSV_PATH:/tsv \
                -v $FEATURES_PATH:/features \
@@ -92,7 +95,7 @@ Follow the instructions inside each one of the following repositories:
 
    ```bash
    docker run 	-v $CONFIG_PATH:/config \
-   			   -v $PROCESSING_PATH:/processing \
+   			-v $PROCESSING_PATH:/processing \
                -v $DATA_PATH:/data \
                -v $TSV_PATH:/tsv \
                -v $FEATURES_PATH:/features \
@@ -124,7 +127,7 @@ Follow the instructions inside each one of the following repositories:
 
    ```bash
    docker run 	-v $CONFIG_PATH:/config \
-   			   -v $PROCESSING_PATH:/processing \
+   			-v $PROCESSING_PATH:/processing \
                -v $DATA_PATH:/data \
                -v $TSV_PATH:/tsv \
                -v $FEATURES_PATH:/features \
@@ -136,14 +139,14 @@ Follow the instructions inside each one of the following repositories:
 
    ```bash
    docker run 	-v $PROCESSING_PATH/ligands:/pdb \
-   			   -v $DATA_PATH/chembl:/index \
+   			-v $DATA_PATH/chembl:/index \
                --name psbap-openbabel --rm \
    			psbap-openbabel search-and-split
    
    # After finish, run the next command:
    
    docker run 	-v $PROCESSING_PATH/ligands:/pdb \
-   			   -v $DATA_PATH/chembl:/index \
+   			-v $DATA_PATH/chembl:/index \
                --name psbap-openbabel --rm \
    			psbap-openbabel minimize
    ```
@@ -152,7 +155,7 @@ Follow the instructions inside each one of the following repositories:
 
    ```bash
    docker run 	-v $CONFIG_PATH:/config \
-   			   -v $PROCESSING_PATH:/processing \
+   			-v $PROCESSING_PATH:/processing \
                -v $DATA_PATH:/data \
                -v $TSV_PATH:/tsv \
                -v $FEATURES_PATH:/features \
@@ -164,7 +167,7 @@ Follow the instructions inside each one of the following repositories:
 
    ```bash
    docker run 	-v $CONFIG_PATH:/config \
-   			   -v $PROCESSING_PATH:/processing \
+   			-v $PROCESSING_PATH:/processing \
                -v $DATA_PATH:/data \
                -v $TSV_PATH:/tsv \
                -v $FEATURES_PATH:/features \
@@ -187,16 +190,16 @@ Follow the instructions inside each one of the following repositories:
     done
     ```
 
-11. Extract Vina results and generate mutation, pocket and ligand features:
+11. Extract Vina docking results:
 
     ```bash
     docker run    -v $CONFIG_PATH:/config \
-    			      -v $PROCESSING_PATH:/processing \
+    			  -v $PROCESSING_PATH:/processing \
                   -v $DATA_PATH:/data \
                   -v $TSV_PATH:/tsv \
                   -v $FEATURES_PATH:/features \
                   --name psbap-core --rm \
-                  psbap-core -op generate-features
+                  psbap-core -op generate-dockings-results
     ```
 
     
