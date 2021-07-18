@@ -1,5 +1,7 @@
 # PSnpBind, a database to highlight pocket SNPs effects on protein-ligand binding affinity
 
+![GitHub](https://img.shields.io/github/license/ammar257ammar/psnpbind-build) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/ammar257ammar/psnpbind-build)
+
 This repository is part of the "PSnpBind, a database to highlight pocket SNPs effects on protein-ligand binding affinity" project and it is the main repository to reproduce the project methodology and results.
 
 **NOTE**: all the following instructions are for Linux operating system and tested on Ubuntu 18. These tools are not tested on other systems like Windows or MacOS.
