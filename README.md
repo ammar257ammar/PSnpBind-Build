@@ -1,6 +1,6 @@
-# Pocket SNPs effects on Binding Affinity Prediction
+# PSnpBind, a database to highlight pocket SNPs effects on protein-ligand binding affinity
 
-This repository is part of the "Pocket SNPs effect on protein-ligand Binding Affinity Prediction (PSBAP)" project and it is the main repository to reproduce the project methodology and results.
+This repository is part of the "PSnpBind, a database to highlight pocket SNPs effects on protein-ligand binding affinity" project and it is the main repository to reproduce the project methodology and results.
 
 **NOTE**: all the following instructions are for Linux operating system and tested on Ubuntu 18. These tools are not tested on other systems like Windows or MacOS.
 
@@ -26,11 +26,15 @@ Follow the instructions inside each one of the following repositories:
 
 1. Download ChEMBL database version 25 from the URL and unpack it to "data/chembl/chembl_25.sdf" :
 
-   [ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_25/chembl_25.sdf.gz](ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_25/chembl_25.sdf.gz) 
+   [ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_25/chembl_25.sdf.gz](ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_25/chembl_25.sdf.gz)
+
+    
 
 2. Download UniProt natural variants database from the URL and unpack it to "data/uniprot_variation/homo_sapiens_variation.txt":
 
    [ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/variants/homo_sapiens_variation.txt.gz](ftp://ftp.uniprot.org/pub/databases/uniprot/current_release/knowledgebase/variants/homo_sapiens_variation.txt.gz) 
+
+   
 
 3. Register an account on [www.pdbbind-cn.org](www.pdbbind-cn.org) and login to download CASF2016 from the URL and unpack it to "data/pdbbind/CASF2016/coreset":
 
