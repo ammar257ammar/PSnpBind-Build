@@ -28,7 +28,7 @@ Follow the instructions inside each one of the following repositories:
 
    [ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_25/chembl_25.sdf.gz](ftp://ftp.ebi.ac.uk/pub/databases/chembl/ChEMBLdb/releases/chembl_25/chembl_25.sdf.gz)
 
-    
+   
 
 2. Download UniProt natural variants database from the URL and unpack it to "data/uniprot_variation/homo_sapiens_variation.txt":
 
@@ -36,9 +36,11 @@ Follow the instructions inside each one of the following repositories:
 
    
 
-3. Register an account on [www.pdbbind-cn.org](www.pdbbind-cn.org) and login to download CASF2016 from the URL and unpack it to "data/pdbbind/CASF2016/coreset":
+3. Register an account on [http://www.pdbbind-cn.org](http://www.pdbbind-cn.org) and login to download CASF2016 from the URL and unpack it to "data/pdbbind/CASF2016/coreset":
 
    http://www.pdbbind-cn.org/download/CASF-2016.tar.gz
+
+   
 
    The folders of the PDB entries should be immediately under the mentioned path.
 
