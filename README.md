@@ -1,6 +1,6 @@
 # PSnpBind, a database to highlight pocket SNPs effects on protein-ligand binding affinity
 
-![GitHub](https://img.shields.io/github/license/ammar257ammar/psnpbind-build) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/ammar257ammar/psnpbind-build)
+![GitHub](https://img.shields.io/github/license/ammar257ammar/psnpbind-build) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/ammar257ammar/psnpbind-build) [![DOI](https://zenodo.org/badge/267933501.svg)](https://zenodo.org/badge/latestdoi/267933501)
 
 This repository is part of the "PSnpBind, a database to highlight pocket SNPs effects on protein-ligand binding affinity" project and it is the main repository to reproduce the project methodology and results.
 
