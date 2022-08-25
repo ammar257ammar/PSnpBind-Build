@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Ammar
+    given-names: Ammar
+title: "PSnpBind, a workflow to construct binding site mutated protein-ligand database"
+version: v1.0.0
+date-released: 2021-07-18
+url: "https://github.com/ammar257ammar/PSnpBind-Build"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Ammar
+      given-names: Ammar
+    - family-names: Cavill
+      given-names: Rachel
+    - family-names: Evelo
+      given-names: Chris T.
+    - family-names: Willighagen
+      given-names: Egon L.
+  title: "PSnpBind: a database of mutated binding site protein–ligand complexes constructed using a multithreaded virtual screening workflow"
+  year: 2022
+  month: 2
+  day: 28
+  journal: Journal of Cheminformatics
+  doi: 10.1186/s13321-021-00573-5
+  url: https://doi.org/10.1186/s13321-021-00573-5
